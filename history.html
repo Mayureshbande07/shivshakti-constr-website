@@ -67,7 +67,7 @@
           <!-- Navigation -->
           <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="nav navbar-nav menu">
-              <li><a href="">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <!-- <li><a href="about-us.html">About Us</a></li> -->
               <li class="dropdown">
                 <a
@@ -104,7 +104,7 @@
                 <ul class="dropdown-menu">
                   <li>
                     <!-- Machineries And Vehicles -->
-                    <a href="#" target="_blank">Resources 1 </a>
+                    <a href="#resource1">Resources 1 </a>
                   </li>
                   <li><a href="#resource2">Resource 2</a></li>
                   <li><a href="#resource3">Resource 3</a></li>
@@ -118,66 +118,38 @@
     </header>
     <!-- Header end -->
 
-    <!-- Careers Section -->
-    <section id="careers">
-      <h1>Our Open Positions</h1>
-      <div class="job-listing">
-        <div class="job-item" data-job="1">
-          <h3>Front-End Developer</h3>
-          <p>Location: Remote</p>
-          <p>Experience Required: 3 Years</p>
-          <p>Description: Remote</p>
-          <button class="view-details-btn">View Details</button>
+    <!-- History Section -->
+    <div
+      class="container history"
+      style="padding-top: 15rem; padding-bottom: 10rem"
+    >
+      <div class="row">
+        <h2 style="text-align: center; padding-bottom: 3rem">Our History</h2>
+        <div class="col-md-12">
+          <div class="main-timeline">
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <div class="timeline-year">2008</div>
+                <h3 class="title">Company Incorporated</h3>
+                <p class="description">
+                  Shiva Structures Private Limited (CIN: U45202MH2008PTC187821)
+                  is a private company incorporated on 29 Dec 2008.
+                </p>
+              </a>
+            </div>
+            <div class="timeline">
+              <a href="#" class="timeline-content">
+                <div class="timeline-year">2009</div>
+                <h3 class="title">Web Development</h3>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer males uada tellus lorem, et condimentum neque commodo
+                  Integer males uada tellus lorem, et condimentum neque commodo
+                </p>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="job-item" data-job="2">
-          <h3>Back-End Developer</h3>
-          <p>Location: San Francisco</p>
-          <p>Experience Required: 2 Years</p>
-          <p>Description: Remote</p>
-          <button class="view-details-btn">View Details</button>
-        </div>
-        <div class="job-item" data-job="3">
-          <h3>UX/UI Designer</h3>
-          <p>Location: New York</p>
-          <p>Experience Required: 1 Year</p>
-          <p>Description: Remote</p>
-          <button class="view-details-btn">View Details</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Job Details Modal -->
-    <div id="job-modal" class="modal">
-      <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <h2 id="job-title">Job Title</h2>
-        <p id="job-location">Location:</p>
-        <p id="job-description">Description:</p>
-        <button id="apply-btn" class="view-details-btn">Apply Now</button>
-      </div>
-    </div>
-
-    <!-- Application Form Modal -->
-    <div id="application-modal" class="modal">
-      <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <h2>Application Form</h2>
-        <form id="application-form">
-          <!-- Dropdown for Job Positions -->
-          <label for="job-position">Job Position</label>
-          <select id="job-position" required>
-            <!-- Options will be populated dynamically -->
-          </select>
-          <label for="name">Your Name</label>
-
-          <input type="text" id="name" required />
-          <label for="name">Your Email</label>
-          <input type="email" id="email" required />
-          <label for="name">Resume</label>
-          <input type="file" id="resume" required />
-
-          <button type="submit">Submit Application</button>
-        </form>
       </div>
     </div>
 
