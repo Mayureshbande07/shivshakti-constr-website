@@ -313,6 +313,43 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 }
 
 /* About */
+
+.about-center-text {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.about-d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-bg-img {
+  background-image: url("../../images/about-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-subtitle {
+  font-size: 45px;
+  color: #ffcb0f;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.about-subtitle::after {
+  content: "—"; /* Or any other dash character, or leave empty and use border */
+  color: #ffcb0f; /* Sets the color of the dash */
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  width: 377px; /* Adjust width as needed */
+  /* Ensures margin works correctly and allows for positioning */
+}
+
+.about-subtitle-para {
+  font-size: 14px;
+  color: #9c9898;
+}
 .about_content {
   margin-right: 25px;
 }
@@ -1511,4 +1548,11 @@ button.view-details-btn:hover {
     width: 100%;
     margin: 0 0 25px;
   }
+}
+
+/* Board of Director */
+.director-d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
