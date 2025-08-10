@@ -248,7 +248,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
     height: 700px;
 }*/
 .carousel .overlay {
-  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -315,19 +315,24 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 /* About */
 
 .about-center-text {
+  padding: 0 35px;
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 0rem;
+  height: 50vh;
+  background-image: url("../../images/about-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
 }
 .about-d-flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .about-bg-img {
-  background-image: url("../../images/about-bg.jpeg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  height: 100%;
 }
 
 .about-subtitle {
@@ -342,7 +347,10 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
   font-weight: bold;
   display: block;
   margin-top: 10px;
-  width: 377px; /* Adjust width as needed */
+  /* position: relative; */
+  /* position: absolute; */
+
+  width: 700px; /* Adjust width as needed */
   /* Ensures margin works correctly and allows for positioning */
 }
 
@@ -1120,7 +1128,7 @@ nav.navbar.bootsnav ul.nav > li > a {
 /* Carousel container */
 .carousel-container {
   width: 100%;
-  max-width: 900px;
+  max-width: 1400px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
